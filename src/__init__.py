@@ -52,5 +52,5 @@ async def main():
 
 
 app.include_router(
-    router=book_router, prefix=f"/{constants["api_version"]}/books", tags=["Books"]
+    router=book_router, prefix=f"/{constants['api_version']}/books", tags=["Books"]
 )
